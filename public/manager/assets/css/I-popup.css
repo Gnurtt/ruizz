@@ -1,0 +1,64 @@
+.I-popup{
+
+}
+.I-popup .popup-heading{
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+.I-popup .popup-body{
+	width: 100%;
+	padding: 20px 0; 
+}
+.I-popup .popup-body .popup-body-name{
+
+}
+
+.I-popup .popup-layout{
+	display: flex;
+	width: 100%;
+	padding: 20px 0; 
+}
+.I-popup .popup-layout.layout-2 .popup-side{
+	width: 50%;
+	padding: 10px 20px;
+}
+.I-popup .popup-layout.layout-3 .popup-side{
+	width: 33.3333%;
+	padding: 10px 20px;
+}
+.I-popup .popup-layout .popup-side .popup-side-name{
+
+}
+.I-popup .popup-layout .popup-side:not(:last-child){
+	border-right: 1px solid #ccc;
+}
+.I-popup .style-group-list{
+	overflow: hidden;
+}
+.I-popup .style-group-list .radio{
+	display: flex; 
+	margin: 0 0 10px 0;
+	width: 33.3333%;
+	float: left;
+}
+.I-popup .radio .style-preview{
+	display: inline-block;
+	width: 30px;
+	aspect-ratio: 3 / 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 900; 
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+ 
+.metadata-table-wrapper{
+	display: flex;
+	align-items: center; 
+	margin: 0 0 10px 0;
+}
+
+

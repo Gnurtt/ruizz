@@ -1,0 +1,87 @@
+.I-executive{
+	font-family: 'Inter', sans-serif;
+	width: 100%;
+}
+.I-executive .executive-wrapper{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.I-executive .executive-wrapper .executive-01{
+}
+.I-executive .executive-wrapper .executive-01 .exe-image{
+	width: 340px;
+	height: 510px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 8px;
+    background-color: #ccc;
+    margin: 0 0 20px 0;
+}
+.I-executive .executive-wrapper .executive-01 .exe-position{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px; 
+	text-align: justify; 
+	color: #096DD9;
+	margin: 0 0 8px 0;
+}
+.I-executive .executive-wrapper .executive-01 .exe-name{
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px; 
+	text-align: justify; 
+	color: #262626;
+}
+.I-executive .executive-wrapper .executive-02{
+	width: 680px;
+	position: relative;
+	padding: 45px 60px;
+	background-color: #fff;
+	box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+	margin: 40px auto;
+	display: flex;
+	align-items: center;
+}
+.I-executive .executive-wrapper .executive-02 .exe-bg{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+  	background-repeat: no-repeat;
+    background-position: top right;
+}
+.I-executive .executive-wrapper .executive-02 .exe-image{
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+    background-color: #ccc;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.I-executive .executive-wrapper .executive-02 .exe-content{
+	margin: 0 0 0 60px;
+}
+.I-executive .executive-wrapper .executive-02 .exe-position{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px; 
+	text-align: justify; 
+	color: #096DD9;
+	margin: 0 0 8px 0;
+}
+.I-executive .executive-wrapper .executive-02 .exe-name{
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px; 
+	text-align: justify; 
+	color: #262626;
+}

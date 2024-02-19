@@ -1,0 +1,22 @@
+.I-warehouse{
+
+}
+.I-warehouse .status-list{
+	margin: 10px 0;
+}
+.I-warehouse .status-event{
+	padding: 10px 15px;
+	cursor: pointer;
+	margin: 0 0 5px 0;
+}
+.I-warehouse .status-event:hover,
+.I-warehouse .status-event.is-select{
+	background-color: #f0f0f0;
+}
+.warehouse-modal .item-list{
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 10px 0;
+}
+
+

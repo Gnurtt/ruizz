@@ -1,0 +1,77 @@
+body.modal-fs-open{
+	overflow: hidden !important;
+}
+.modal-fullscreen{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	opacity: 0;
+	visibility: hidden;
+	z-index: -10000;
+}
+.modal-fullscreen .fs-wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #0009;
+
+}
+.modal-fullscreen .fs-wrapper .fs-body{
+	position: absolute;
+	bottom: -50%;
+	left: 0;
+	width: 100%;
+	height: calc(100vh - 70px);
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+
+	transition: all 300ms ease;
+}
+.modal-fullscreen .fs-wrapper .fs-title{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+}
+.modal-fullscreen .fs-wrapper .fs-title h4.modal-title{
+	
+}
+.modal-fullscreen .fs-wrapper .fs-title .modal-close{
+	cursor: pointer;
+}
+.modal-fullscreen .fs-wrapper .fs-content{
+	width: 100%;
+	height: calc(100% - 140px);
+}
+.modal-fullscreen .fs-wrapper .fs-content .fs-content-wrapper{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.modal-fullscreen .fs-wrapper .fs-footer{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 70px;
+	border-top: 1px solid #ccc;
+	padding: 20px;
+}
+
+
+
+.modal-fullscreen.show{
+	opacity: 1;
+	visibility: visible;
+	z-index: 10000;
+}
+.modal-fullscreen.show .fs-wrapper .fs-body{
+	bottom: 0;
+}
