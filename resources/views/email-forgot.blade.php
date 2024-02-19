@@ -1,0 +1,1 @@
+<p>Computer Store: Mã khôi phục {{ $code }} . Mã khôi phục tồn tại trong 30 phút.</p>
